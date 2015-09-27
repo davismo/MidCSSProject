@@ -1,28 +1,105 @@
 
 body {
 	background-color: lightgray;
+	font-family: sans-serif;
+	font-size: 16px;
 }
 
 #wrapper {
-	border: solid gray;
-	margin: 0 auto;
+	margin: 20px auto;
+	border-radius: 10px;
+	background-color: gray;
+	display: table;
+}
+
+p {
+	text-align: justify;
 }
 
 #left-container {
-	border: solid black;
+	background-color: white;
 	float: left;
-	width: 500px;
-	height: 700px;
+	width: 40%;
+}
+
+#left-container h1{
+	color: red;
+	text-align: center;
+}
+
+#left-container h2{
+	text-align: center;
+}
+
+#left-container img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#left-container #text-center {
+	border: solid black;
+}
+
+.list-inline {
+	padding-left: 0;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-danger{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card{
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 10px auto;
 }
 
 #right-container {
-	border: solid black;
+	background-color: white;
 	float: right;
-	width: 900px;
-	height: 700px;
+	width: 55%;
 }
 
+#movies h3{
+	font-size: 16px;
+}
+
+#movies img {
+	width: 100px;
+	height: 200px;
+	padding-bottom: 20px
+}
+
+
 #footer {
-	border: solid black;
+	background-color: white;
 	clear: both;
+	padding: 10px 400px 60px 20px;
+}
+
+#footer h2 {
+	font-family: Arial;
+}
+
+#share {
+	position: absolute;
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 10px;
 }
