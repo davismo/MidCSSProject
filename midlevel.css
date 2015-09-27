@@ -1,3 +1,28 @@
-div h1 {
-	color: red;
+
+body {
+	background-color: lightgray;
+}
+
+#wrapper {
+	border: solid gray;
+	margin: 0 auto;
+}
+
+#left-container {
+	border: solid black;
+	float: left;
+	width: 500px;
+	height: 700px;
+}
+
+#right-container {
+	border: solid black;
+	float: right;
+	width: 900px;
+	height: 700px;
+}
+
+#footer {
+	border: solid black;
+	clear: both;
 }
