@@ -8,14 +8,6 @@ body {
 	line-height: 1.6em;
 }
 
-#wrapper {
-	margin: 20px auto;
-	border-radius: 2px;
-	display: table;
-	padding: 20px;
-	width: 1000px;
-}
-
 h1,h2,h3 {
 	font-family: Montserrat, sans-serif;
 }
@@ -24,12 +16,74 @@ p {
 	text-align: justify;
 }
 
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+#movies h3{
+	font-size: 16px;
+}
+
+#movies td {
+	padding: 5px;
+}
+
+#movies img {
+	width: 80px;
+	height: 100px;
+}
+
+#movies {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
 .card{
   background: white;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   padding: 15px;
-  margin: 10px auto;
+  margin-bottom: -10px auto;
+}
+
+.card list-inline {
+	margin: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-inline {
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline-block;
+	width: 30%;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+
+.btn-danger{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#wrapper {
+	margin: 20px auto;
+	border-radius: 2px;
+	display: table;
+	padding: 20px;
+	width: 1000px;
+	background-color: lightgray;
 }
 
 #left-container {
@@ -55,64 +109,22 @@ p {
 	text-align: center;
 }
 
-#text-center {
-	border: solid black;
-}
-
-.list-inline {
-	padding-left: 0;
-}
-
-.list-inline li {
-	display: inline-block;
-	width: 30%;
-}
-
-.list-inline li i{
-  font-size: 25px;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.btn-danger{
-  background-color: red;
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 4px;
-}
-
 #right-container {
 	background-color: white;
 	float: right;
 	width: 60%;
+	position: relative;
 }
 
-#movies {
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.6em;
-}
-
-#movies h3{
-	font-size: 16px;
-}
-
-#movies td {
-	padding: 10px;
-}
-
-#movies img {
-	width: 80px;
-	height: 100px;
+.clear {
+	clear: both;
 }
 
 #footer {
 	background-color: white;
-	clear: both;
+	position: relative;
 	padding: 10px 400px 60px 20px;
+	bottom: -20px;
 }
 
 #footer h2 {
@@ -121,13 +133,8 @@ p {
 }
 
 #share {
-	position: absolute;
 	text-align: center;
 	bottom: 10px;
 	right: 0px;
 }
 
-a {
-	color: #ccc;
-	text-decoration: none;
-}
