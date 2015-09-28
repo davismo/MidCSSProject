@@ -1,25 +1,41 @@
 
 body {
 	background-color: lightgray;
-	font-family: sans-serif;
-	font-size: 16px;
+	font-family: Open Sans, sans-serif;
+	font-size: 15px;
+	color: #7d7d7d;
+	font-weight: bold;
+	line-height: 1.6em;
 }
 
 #wrapper {
 	margin: 20px auto;
-	border-radius: 10px;
-	background-color: gray;
+	border-radius: 2px;
 	display: table;
+	padding: 20px;
+	width: 1000px;
+}
+
+h1,h2,h3 {
+	font-family: Montserrat, sans-serif;
 }
 
 p {
 	text-align: justify;
 }
 
+.card{
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 10px auto;
+}
+
 #left-container {
 	background-color: white;
 	float: left;
-	width: 40%;
+	width: 35%;
 }
 
 #left-container h1{
@@ -35,15 +51,21 @@ p {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	border: 3px solid #cccccc;
 	text-align: center;
 }
 
-#left-container #text-center {
+#text-center {
 	border: solid black;
 }
 
 .list-inline {
 	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline-block;
+	width: 30%;
 }
 
 .list-inline li i{
@@ -62,30 +84,30 @@ p {
   border-radius: 4px;
 }
 
-.card{
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  margin: 10px auto;
-}
-
 #right-container {
 	background-color: white;
 	float: right;
-	width: 55%;
+	width: 60%;
+}
+
+#movies {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.6em;
 }
 
 #movies h3{
 	font-size: 16px;
 }
 
-#movies img {
-	width: 100px;
-	height: 200px;
-	padding-bottom: 20px
+#movies td {
+	padding: 10px;
 }
 
+#movies img {
+	width: 80px;
+	height: 100px;
+}
 
 #footer {
 	background-color: white;
@@ -94,12 +116,18 @@ p {
 }
 
 #footer h2 {
-	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 #share {
 	position: absolute;
 	text-align: center;
-	margin-right: 0px;
-	margin-bottom: 10px;
+	bottom: 10px;
+	right: 0px;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
 }
