@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"light",
+				"lightgray"
+			],
+			[
 				"blue",
 				"blue"
 			],
@@ -19,15 +23,7 @@
 			"file": "css-challenge.html",
 			"settings":
 			{
-				"buffer_size": 3541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "midlevelcss.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
+				"buffer_size": 3621,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +31,7 @@
 			"file": "midlevel.css",
 			"settings":
 			{
-				"buffer_size": 63,
+				"buffer_size": 1785,
 				"line_ending": "Unix"
 			}
 		}
@@ -85,7 +81,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/davismo/GitHub/MidCSSProject"
+		"/Users/davismo/GitHub/MidCSSProject",
+		"/Users/davismo/GitHub/MidCSSProject/images"
 	],
 	"file_history":
 	[
@@ -94,7 +91,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -134,15 +131,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3541,
+						"buffer_size": 3621,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								303,
+								303
 							]
 						],
 						"settings":
@@ -153,7 +150,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -161,47 +158,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "midlevelcss.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "midlevel.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 63,
+						"buffer_size": 1785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								1279,
+								1279
 							]
 						],
 						"settings":
@@ -210,7 +179,7 @@
 							"syntax": "Packages/CSS3/CSS3.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 976.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -221,7 +190,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -262,7 +231,7 @@
 	"project": "midlevelcss.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -300,7 +269,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
