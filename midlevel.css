@@ -1,17 +1,6 @@
-
-@font-face {
-	font-family: 'OpenSans';
-	src: url('OpenSans-Regular.ttf');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.ttf');
-}
-
 body {
-	background-color: lightgray;
-	font-family: 'OpenSans', sans-serif;
+	background-color: #ededed;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	color: #bfbfbf;
 	line-height: 1.5em;
@@ -23,7 +12,7 @@ h1,h2,h3 {
 
 h2 {
 	color: gray;
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 18px;
 }
 
@@ -41,14 +30,19 @@ a {
 	text-decoration: none;
 }
 
-#movies h3{
+a:hover {
+	color: #cc0000
+
+}
+
+#movies h3 {
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: 400;
 	color: gray;
 }
 
 #movies td {
-	padding: 5px;
+	padding: 0px;
 }
 
 #movies img {
@@ -78,6 +72,7 @@ a {
 
 .list-inline {
 	padding-left: 0;
+	padding-bottom: 4px;
 }
 
 .list-inline li {
@@ -103,7 +98,7 @@ a {
 	display: table;
 	padding: 20px;
 	width: 1000px;
-	background-color: lightgray;
+	background-color: #e4e4e4;
 }
 
 #left-container {
